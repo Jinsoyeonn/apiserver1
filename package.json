@@ -1,0 +1,16 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bootpay/backend-js": "^2.1.11",
+    "express": "^4.19.2"
+  },
+  "type": "module"
+}
