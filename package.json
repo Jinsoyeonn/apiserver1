@@ -11,6 +11,5 @@
   "dependencies": {
     "@bootpay/backend-js": "^2.1.11",
     "express": "^4.19.2"
-  },
-  "type": "module"
+  }
 }
