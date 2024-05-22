@@ -14,7 +14,8 @@ class ApiProvider {
     const url = `${this.baseUrl}/v2/request/token`;
     const response = await axios.post(url, payload, {
       headers: {
-        'Accept': 'application/json'
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
       }
     });
 
