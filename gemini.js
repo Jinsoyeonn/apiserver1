@@ -18,7 +18,8 @@ class ApiProvider {
       }
     });
 
-    return response.data;
+    // return response.data;
+    return 'hihi';
   }
 
   async getEasyPayUserToken(token, user) {
